@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+  }
+  .bg{
+      position: absolute;
+      z-index: -1;
+      width: 1440px;
+      height: 799px;
+  }
+  header {
+    position: relative;
+  }
+  .fixed{
+      position: absolute;
+    max-width: 940px;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+  .block {
+    margin: auto;
+     max-width: 1400px;
+  }
+  .table{
+    width:100%;
+  }
+  #nav {
+  margin-top: 0;
+  position: absolute;
+  right:0;
+  padding: 0px;
+  }
+  ul {
+    text-align: right;
+     list-style:none;
+  }
+  ul li{
+    padding: 15px;
+  }
+  .menuitem {
+   display: inline-block;
+    margin-top: 45px; 
+  }
+  .menuitem a{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Montserrat";
+    color:black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+  }
+  #nav a:hover {
+    border-radius: 50px 50px;
+    background-color: #008000;
+  }
+  
+  .logo a>img{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 65px;
+    text-decoration: none;
+  }
