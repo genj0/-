@@ -1,0 +1,235 @@
+*, *:before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.logo>img{
+    width: 70px;
+    height: 70px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    min-height: 600px;
+    background: url(1598.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+.main-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 0;
+    background: linear-gradient(178.1deg, #FFFFFF 2.81%, rgba(255, 255, 255, 0) 99.3%);
+}
+
+.header{
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;  
+    position: relative;
+    z-index: 3;
+}
+.menu {
+    width: 60%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-link{
+    text-decoration: none;
+}
+.main-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main-text h1{
+    margin: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    text-transform: uppercase;
+}
+.subtitile{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+.main-btn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 48px;
+    background-color: #2A7CF8;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px 5px;
+}
+.main-btn a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+ }
+ .main-btn:hover {
+   border-radius: 5px 5px;
+   background-color: #008000;
+ }
+ .table {
+     background-color:#E5E5E5;
+     height: 450vh;
+     min-height: 00%;
+ }
+ .second-header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+ .h2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+ }
+/*Статьи пошли тут */
+.wrapper{
+    width: 90%;
+    padding-left:  5%;
+}
+.articles {
+    max-width: 1360px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.ar-at{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+.ar-text p{
+    max-width: 200px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+    max-width: 426px;
+    min-width: 426px;
+    min-height: 317px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid yellow;
+    /* width: 626px;
+height: 417px;*/
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 h3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+    justify-content: space-around;
+}
+.img1 {
+    background: url(img/гостр.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.img2 {
+    background: url(img/тртс.jpg) no-repeat center;
+    background-size: cover;
+position: relative;
+}
+.img3 {
+    background: url(img/Пожарнаябезопасность.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.img4 {
+    background: url(img/паспорта.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.img5 {
+    background: url(img/Пром.безопасность.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.img6 {
+    background: url(img/сисменеджментаикачества.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.img7 {
+    background: url(img/се.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.img8 {
+    background: url(img/RSPTRB.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.img9 {
+    background: url(img/уч.центр.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background: url(2891.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    align-items: center;
+}
+.down{
+    background: black;
+    min-height: 20vh;
+}
