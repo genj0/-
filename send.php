@@ -16,7 +16,7 @@ $phone = trim($phone);
 //echo $email;
 //echo "<br>;
 //echo $phone;
-if (mail("info@mmoctex.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.".phone: ".$phone ,"From: info@moctex.ru \r\n"))
+if (mail("info@moctex.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.".phone: ".$phone ,"From: send@moctex.ru \r\n"))
  {     echo "сообщение успешно отправлено";
 } else {
     echo "при отправке сообщения возникли ошибки";

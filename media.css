@@ -1,0 +1,131 @@
+@media (max-width: 1199px) {
+    html{
+        font-size: 12px;
+    }
+    .main-text h1{
+        font-size: 54px;
+    }
+    .p3{
+        font-size: 14px;
+        width: 60%;
+    }
+    .p3p::after{
+        width: 70px;
+        height: 11px;
+    }
+}
+@media (max-width: 991px) {
+    html{
+        font-size: 10px;
+    }
+    .main-text h1{
+        font-size: 44px;
+    }
+    .p3{
+        font-size: 12px;
+        width: 80%;
+    }
+    .p3p::after{
+        width: 60px;
+        height: 11px;
+    }
+    .p3p{
+        padding: 0.2rem;
+    }
+    .wrapper{
+        width: 90%;
+        padding-left:  5%;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+        max-width: 226px;
+        min-width: 226px;
+        min-height: 117px;
+        align-items: center;
+        text-align: center;
+        /* width: 626px;
+    height: 417px;*/
+    }
+    .cta {
+
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        vertical-align: middle;
+    }
+    .cta h5{
+        margin: 0;
+        font-size: 24px;
+        z-index: 3;
+        text-align: center;
+        vertical-align: middle;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .cta-btn{
+        margin-top: 2rem;
+        margin-right: 4rem;
+        vertical-align: middle;
+    }
+    .cta-btn-right{
+        text-align: center;
+        margin-right: auto;
+        
+    }
+    .cta-btn-left{
+        
+        text-align: center;
+    }
+   
+}
+@media (max-width: 691px){
+    .cta-btn-right{
+        text-align: center;
+        margin-left: inherit;
+    }
+    .cta-btn-left{
+        margin-left: 10%;
+        text-align: center;
+    }
+    .cta {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        vertical-align: middle;
+    }
+    .box input[type = "text"]{
+        width: 100%;
+    }
+    .box input[type = "submit"] {
+        width: 100%;
+    }
+    .menu{
+        width: 70%;
+    }
+    .menu ul li{
+        padding: 0.5rem;
+    }
+    .menu-link svg{
+        width: 10px ;
+        height: 9px;
+    }
+    .img1 img, .img2 svg, .img3 img, .img4 img, .img5 img, .img6 img, .img6 img, .img7 img, .img8 img, .img9 img {
+        width: 80px; 
+        height: 80px;
+    } 
+    .p3{
+        font-size: 12px;
+        width: 85%;
+    }
+    .p3p::after{
+        width: 60px;
+        height: 11px;
+    }
+    .p3p{
+        padding: 0.2rem;
+    }
+}
